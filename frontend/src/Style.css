@@ -1,9 +1,6 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  text-align: justify;
+  background-color: black;
 }
 
 .App-header {
@@ -19,4 +16,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Content-Card {
+  background-color:white;
 }

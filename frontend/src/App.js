@@ -1,14 +1,21 @@
 import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from './Header.js';
+import Content from './Content.js';
+import './Style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    
+    <div>
+      <div>
+        <Header/>
+      </div>
+      <div>
+        <Content/>
+      </div>
     </div>
+    
   );
 }
 
