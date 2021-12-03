@@ -29,19 +29,14 @@ body {
 }
 
 .div-widget1 {
-  position: relative;
-  
-  margin:150px auto 0;
-  left:50px;
-  width: 900px;
+   
+  margin: 30px;
+  width: 45%;
 }
 
 .div-widget2 {
-  position: relative;
-  
-  margin:150px auto 0;
-  left:50px;
-  width: 900px;
+  margin: 30px;
+  width: 45%;
 }
 
 

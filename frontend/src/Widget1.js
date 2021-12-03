@@ -8,7 +8,7 @@ class Widget1 extends React.Component {
     render() {
       return (
         <div>
-            <Card>
+            <Card style={{textAlign:'center'}}>
                 <CardTitle>Nom API</CardTitle>
 
             </Card>
