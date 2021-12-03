@@ -1,12 +1,34 @@
 import React from "react";
+import Widget1 from './Widget1.js';
+import Widget2 from './Widget2.js';
 
-import './Style.css';
+import './App.css';
 
-function Content() {
+class Content extends React.Component {
+  render() {
+    return (
+      <div>
+        <div className="div-widget1">
+          <Widget1/>
+        </div>
+        <div className="div-widget2">
+          <Widget2/>
+        </div>
+
+      </div>
+    );
+  }
+}
+export default Content;
+
+
+
+
+ /*function Content() {
     return (
       
       <div>
-        <p>vzvrzrvz</p>
+        <Widget1/>
 
 
       </div>
@@ -15,5 +37,5 @@ function Content() {
     );
   }
   
-  export default Content;
+  export default Content;*/
   

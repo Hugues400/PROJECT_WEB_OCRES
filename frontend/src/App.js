@@ -1,10 +1,30 @@
 import React from 'react';
 import Header from './Header.js';
 import Content from './Content.js';
-import './Style.css';
+
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+class App extends React.Component {
+   render() {
+     return (
+         <div>
+           <div>
+              <Header/>
+           </div>
+           <div>
+              <Content/>
+           </div>
+         </div>
+     );
+   }
+}
+export default App;
+
+
+
+
+/*function App() {
   return (
     
     <div>
@@ -19,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;*/
