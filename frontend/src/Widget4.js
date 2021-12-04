@@ -4,7 +4,7 @@ import {Card, CardTitle} from 'reactstrap';
 import './App.css';
 
 
-class Widget1 extends React.Component {
+class Widget4 extends React.Component {
     render() {
       return (
         <div>
@@ -18,10 +18,10 @@ class Widget1 extends React.Component {
       );
     }
  }
- export default Widget1;
+ export default Widget4;
  
 
- /*function Widget1() {
+ /*function Widget4() {
   return (
     
     <div>
@@ -35,4 +35,4 @@ class Widget1 extends React.Component {
   );
 }
 
-export default Widget1;*/
+export default Widget4;*/

@@ -1,3 +1,10 @@
+
+/*@media only screen and (min-width: 1024px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
+}*/
+
 .App {
   text-align: justify;
   
@@ -28,16 +35,14 @@ body {
   
 }
 
-.div-widget1 {
-   
-  margin: 30px;
-  width: 45%;
+
+
+.container {
+  justify-content: space-around;
+  align-self: center;
+  
 }
 
-.div-widget2 {
-  margin: 30px;
-  width: 45%;
-}
 
 
 
