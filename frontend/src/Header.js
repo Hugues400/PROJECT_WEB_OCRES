@@ -5,9 +5,9 @@ import './App.css';
 class Header extends React.Component {
   render() {
     return (
-      <div className="page-header">
-        <h1>En avant pour voyager...</h1>
-        
+      <div>
+        <h1 style={{textAlign:"center"}}>En avant pour voyager...</h1>
+        <button className="button-switch-page">Lien page administrateur</button>
       </div>
     );
   }

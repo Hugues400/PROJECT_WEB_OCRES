@@ -23,15 +23,17 @@
 
 .App-link {
   color: #09d3ac;
+
 }
 
 body {
   background-color: mediumpurple!important;
+
 }
 
-.page-header {
-  text-align: center;
+.div-header {
   background-color:orange!important;
+  position: sticky-top;
   
 }
 
@@ -39,12 +41,21 @@ body {
 
 .container {
   justify-content: space-around;
-  align-self: center;
+  margin-block: 15px;
+  
   
 }
 
 .row {
   margin-block: 15px;
+}
+
+.button-switch-page {
+  border-color: black;
+  background-color: coral;
+  flood-opacity: 25%;
+  
+
 }
 
 
